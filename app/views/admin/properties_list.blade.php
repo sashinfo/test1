@@ -7,7 +7,7 @@ $menu = 'properties';
 @section('content')
 <h2 class="margin-none pull-left">Properties</h2>
 <div class="btn-group btn-group-sm pull-right">
-    <a href="{{ url('/admin/add_property') }}" class="btn btn-primary"><i class="fa fa-fw fa-plus-circle"></i> Add Property</a>
+    <a href="{{ url('/admin/properties/add_property') }}" class="btn btn-primary"><i class="fa fa-fw fa-plus-circle"></i> Add Property</a>
 </div>
 <div class="clearfix"></div>
 <div class="row">

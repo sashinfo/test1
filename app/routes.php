@@ -27,5 +27,9 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/dashboard', 'DashBoardController@index');
 
     Route::get('/properties', 'PropertiesController@index');
-    Route::get('/add_property', 'PropertiesController@insert');
+    Route::get('properties/add_property', 'PropertiesController@insert');
+
+    Route::get('/pages', 'PagesController@index');
+    Route::get('pages/add_page', 'PagesController@addpage');
 });
+
